@@ -9,6 +9,9 @@ left4dead2/
   models/
     buggy.mdl / .vvd / .phy / .dx80.vtx / .dx90.vtx / .sw.vtx
     airboat.mdl / .vvd / .phy / .dx80.vtx / .dx90.vtx / .sw.vtx
+  materials/models/
+    buggy/ammo_box.vmt + .vtf, buggy001.vmt + .vtf
+    airboat/airboat001.vmt + .vtf, airboat_blur02.vmt + .vtf
   scripts/
     game_sounds_vehicles.txt
     vehicles/
@@ -39,5 +42,7 @@ https://l4d2-fastdl.pages.dev/left4dead2/models/buggy.mdl
 ## Credits
 
 Vehicle models and scripts originate from Half-Life 2 (Valve) and were sourced from
-the public [Pinsplash/halflife2chaos](https://github.com/Pinsplash/halflife2chaos)
-repository. No assets are redistributed for commercial use.
+[Pinsplash/halflife2chaos](https://github.com/Pinsplash/halflife2chaos).
+Materials were sourced from
+[bouletmarc/hl2_ep2_content](https://github.com/bouletmarc/hl2_ep2_content).
+No assets are redistributed for commercial use.
