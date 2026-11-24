@@ -2,7 +2,9 @@
 
 FastDL files for the `Driveable Vehicles` SourceMod plugin on Left 4 Dead 2.
 
-Folder layout mirrors the server install so Cloudflare Pages can serve files directly:
+Folder layout mirrors the server install so Cloudflare Pages can serve files directly.
+L4D2's FastDL client requests `.bz2`-compressed copies, so each asset exists both
+uncompressed and as `<filename>.bz2`:
 
 ```
 left4dead2/
